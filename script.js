@@ -8,7 +8,20 @@ document.addEventListener("DOMContentLoaded", function () {
         "images/6.jpg",
         "images/7.jpg",
         "images/8.jpg",
-        "images/9.jpg"
+        "images/9.jpg",
+        "images/10.jpg",
+        "images/11.jpg",
+        "images/12.jpg",
+        "images/13.jpg",
+        "images/14.jpg",
+        "images/15.jpg",
+        "images/16.jpg",
+        "images/17.jpg",
+        "images/18.jpg",
+        "images/19.jpg",
+        "images/20.jpg",
+        "images/21.jpg"
+        
         // Agrega más rutas de imágenes aquí
     ];
     const presentDivs = document.querySelectorAll(".present");
