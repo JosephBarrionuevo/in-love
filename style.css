@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(187, 236, 255);
+}
+
+.contenedor-principal{
+    background-color: bisque;
+    text-align: center; /* Centra las imágenes horizontalmente */
+    justify-content: center; /* Centra horizontalmente en el contenedor */
+    align-items: center; /* Centra verticalmente en el contenedor */
+    max-width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+.present{
+    display: flex;
+    text-align: center; /* Centra las imágenes horizontalmente */
+    justify-content: center; /* Centra horizontalmente en el contenedor */
+    align-items: center; /* Centra verticalmente en el contenedor */
+    max-width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+.fondo{
+    background-color: black;
+    border: 10px white solid;
+    margin-right: 5px;
+    padding: 10px;
+    width: 300px; /* Ancho inicial */
+    height: 500px;
+    display: flex;
+    align-items: center; /* Centra la imagen verticalmente en el div .present */
+    justify-content: center; /* Centra la imagen horizontalmente en el div .present */
+    transition: opacity 1s;
+}
+
+.text1{
+    border-top:5px red solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px red solid;
+}
+
+.pie{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%; /* Ancho inicial */
+    text-align: center;
+    
+}
